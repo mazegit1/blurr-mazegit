@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import touchimg from '../images/touchimg.png'
 
-const Page5 = () => {
+const GetInTouch = () => {
   return (
     <>
       <Navbar />
@@ -20,4 +20,4 @@ const Page5 = () => {
   )
 }
 
-export default Page5
+export default GetInTouch

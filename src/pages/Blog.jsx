@@ -14,13 +14,13 @@ import card10 from '../images/card10.png'
 import card11 from '../images/card11.png'
 import card12 from '../images/card12.png'
 
-const Page6 = () => {
+const Blog = () => {
   return (
     <>
       <Navbar />
       <div className="blog py-24 px-4 md:px-8 lg:px-14 bg-[#010101]">
         <div className="blog-title animate-fadeIn">
-          <h1 className='text-white text-9xl xl:text-[250px] xl:leading-[200px] md:text-9xl py-6 lg:text-[100px] leading-tight md:leading-[80px] lg:leading-[100px] font-semibold text-start'>
+          <h1 className='text-white text-9xl xl:text-[250px] xl:leading-[200px] md:text-9xl py-6 lg:text-[100px] leading-tight md:leading-[80px]  lg:leading-[100px] font-semibold ml-14 xl:ml-4 text-start'>
             BLOG<span className='text-2xl md:text-4xl lg:text-5xl'>.</span>
           </h1>
         </div>
@@ -38,4 +38,4 @@ const Page6 = () => {
   )
 }
 
-export default Page6
+export default Blog

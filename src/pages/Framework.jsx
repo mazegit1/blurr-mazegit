@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import mainimg from '../images/mainimg.png'
 
-const Page4 = () => {
+const Framework = () => {
   return (
     <>
       <Navbar />
@@ -30,4 +30,4 @@ const Page4 = () => {
   )
 }
 
-export default Page4
+export default Framework

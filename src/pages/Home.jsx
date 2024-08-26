@@ -10,9 +10,8 @@ import art from '../images/art.png';
 import Footer from '../components/Footer';
 import { RiArrowDownDoubleFill } from "react-icons/ri";
 
-const Page1 = () => {
+const Home = () => {
   const scrollToContent = () => {
-    // Scroll to the bottom of the page
     window.scrollTo({
       top: document.body.scrollHeight,
       behavior: 'smooth',
@@ -29,11 +28,11 @@ const Page1 = () => {
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
           <h1 className="text-[200px] leading-[160px] font-bold sm:text-[150px] sm:leading-[100px] md:text-[350px] md:leading-[250px] mt-20 text-start animate-slideDown">
-            BLU <br /> RR<span className="text-[25px]">.</span>
+            BLU <br /> RR<span className="text-[35px]">.</span>
           </h1>
           <h2 className="text-xl md:text-base text-start sm:text-sm animate-slideDown">
             <span className="text-3xl min-w-[300px]:text-xl text-center font-semibold">
-              DESIGN STUDIO BASED <br /> IN OSAKA — TOKYO
+              DESIGN STUDIO BASED <br /> IN OSAKA — TOKYO.
             </span>
           </h2>
           <button
@@ -44,9 +43,7 @@ const Page1 = () => {
           </button>
         </div>
       </div>
-      
-      {/* Other sections... */}
-      <div className="hero2 bg-[#010101] flex px-4 sm:px-20 md:py-14 flex-col py-24 sm:py-56 justify-start">
+        <div className="hero2 bg-[#010101] flex px-4 sm:px-20 md:py-14 flex-col py-24 sm:py-56 justify-start">
         <h1 className="text-6xl md:text-[100px] md:leading-[100px] xl:text-[200px] xl:leading-[170px] xl:py-20 sm:text-[240px] leading-[4.5rem] sm:leading-[180px] font-bold text-white">
           PIXEL <br /> OBSESSION <br /><span className='text-[#646467]'>— SINCE
           </span>
@@ -56,7 +53,7 @@ const Page1 = () => {
             1996
           </h1>
           <img src={logo} alt="" className="w-12 sm:w-auto animate-bounce md:w-24 xl:w-44" />
-        </div>
+          </div>
       </div>
 
       <div className="works flex flex-col items-center px-4 sm:px-8 bg-[#010101]">
@@ -86,7 +83,7 @@ const Page1 = () => {
 
       <div id="content" className="links animate-slideDown pb-14 bg-[#010101] flex flex-col items-center gap-8 px-4 sm:px-8">
         <div className="links-top text-center animate-fadeIn">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-medium text-white">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-8xl font-medium text-white">
             PHOTOGRAPHER BASED <br />IN OSAKA — TOKYO
           </h1>
         </div>
@@ -118,9 +115,6 @@ const Page1 = () => {
             <a href="/transforms" className="text-4xl md:text-[50px] xl:text-[100px] sm:text-6xl hover:text-white transition-all ease-in-out duration-200 hover:scale-110">
               TRANSFORMS
             </a>
-            <a href="#" className="text-4xl md:text-[50px] xl:text-[100px] sm:text-6xl hover:text-white transition-all ease-in-out duration-200 hover:scale-110">
-              CINEMA
-            </a>
           </div>
         </div>
       </div>
@@ -130,4 +124,4 @@ const Page1 = () => {
   );
 };
 
-export default Page1;
+export default Home;

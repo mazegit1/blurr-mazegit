@@ -7,7 +7,7 @@ import framework2 from '../images/framework2.png'
 import framework3 from '../images/framework3.png'
 import Footer from '../components/Footer';
 
-const Page3 = () => {
+const CherryPicks = () => {
   return (
     <>
       <Navbar />
@@ -35,8 +35,8 @@ const Page3 = () => {
             <img src={framework1} className="" alt="Framework 1" />
           </div>
           <div className="wrapper-bottom grid grid-cols-2 gap-8 animate-bounce">
-            <img src={framework2} className="" alt="Framework 2" />
-            <img src={framework3} className="" alt="Framework 3" />
+            <img src={framework2} className="Framework 2 rounded-b-xl overflow-hidden" />
+            <img src={framework3} className="Framework 3 rounded-b-xl overflow-hidden" />
           </div>
         </div>
       </div>
@@ -45,4 +45,4 @@ const Page3 = () => {
   )
 }
 
-export default Page3
+export default CherryPicks
